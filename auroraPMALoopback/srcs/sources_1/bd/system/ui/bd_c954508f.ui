@@ -1,0 +1,47 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.403061",
+   "Default View_TopLeft":"-501,0",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port TX -pg 1 -lvl 5 -x 1470 -y 690 -defaultsOSRD
+preplace port RX -pg 1 -lvl 0 -x 0 -y 690 -defaultsOSRD
+preplace port GT_DIFF_REFCLK -pg 1 -lvl 0 -x 0 -y 70 -defaultsOSRD
+preplace port port-id_sys_clock -pg 1 -lvl 0 -x 0 -y 620 -defaultsOSRD
+preplace inst aurora_8b10b_0 -pg 1 -lvl 4 -x 1170 -y 700 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 3 -x 670 -y 630 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 3 -x 670 -y 530 -defaultsOSRD
+preplace inst util_vector_logic_0 -pg 1 -lvl 2 -x 350 -y 630 -defaultsOSRD
+preplace inst trafficGen_0 -pg 1 -lvl 3 -x 670 -y 410 -defaultsOSRD
+preplace inst util_ds_buf_0 -pg 1 -lvl 3 -x 670 -y 70 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 1 -x 110 -y 620 -defaultsOSRD
+preplace inst system_ila_0 -pg 1 -lvl 4 -x 1170 -y 200 -defaultsOSRD
+preplace inst rst_system_156M -pg 1 -lvl 3 -x 670 -y 220 -defaultsOSRD
+preplace netloc aurora_8b10b_0_user_clk_out 1 2 3 490 320 880 970 1370
+preplace netloc channel_up 1 3 2 960 20 1450
+preplace netloc clk_wiz_0_clk_out1 1 1 3 200 710 NJ 710 840
+preplace netloc clk_wiz_0_locked 1 1 2 210 200 NJ
+preplace netloc hard_err 1 3 2 970 30 1440
+preplace netloc lane_up 1 3 2 920 370 1430
+preplace netloc pll_not_locked_out 1 3 2 930 380 1420
+preplace netloc rst_system_156M_peripheral_aresetn 1 3 1 890 260n
+preplace netloc rx_resetdone_out 1 3 2 940 390 1410
+preplace netloc soft_err 1 3 2 950 400 1400
+preplace netloc sys_clock_1 1 0 1 NJ 620
+preplace netloc tx_lock 1 3 2 960 410 1390
+preplace netloc tx_resetdone_out 1 3 2 970 420 1380
+preplace netloc util_ds_buf_0_IBUF_OUT 1 3 1 860J 60n
+preplace netloc util_vector_logic_0_Res 1 2 2 500 700 850
+preplace netloc xlconstant_0_dout 1 3 1 840J 630n
+preplace netloc xlconstant_1_dout 1 3 1 870J 530n
+preplace netloc GT_SERIAL_RX_0_1 1 0 4 NJ 690 NJ 690 NJ 690 NJ
+preplace netloc aurora_8b10b_0_GT_SERIAL_TX 1 4 1 N 690
+preplace netloc aurora_8b10b_0_USER_DATA_M_AXI_RX 1 2 3 500 330 900 430 1370
+preplace netloc mgt_diff_clock1_1 1 0 3 NJ 70 NJ 70 NJ
+preplace netloc trafficGen_0_m_axis 1 3 1 910 110n
+levelinfo -pg 1 0 110 350 670 1170 1470
+pagesize -pg 1 -db -bbox -sgen -160 0 1540 980
+"
+}
+0

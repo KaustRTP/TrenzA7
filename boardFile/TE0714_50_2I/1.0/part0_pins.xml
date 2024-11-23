@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> 
+<!-- ##################################################################### -->
+<!-- ##TE File Version:1.0-->
+<!-- ##TE Last Modification:2022.07.06-->
+<!-- ##################################################################### -->
+<!-- ## replace part_name with correct FPGA PART from board.xml-->
+<part_info part_name="xc7a50tcsg325-2">
+<pins>
+    <!--insert ip pin settings and locations here, see ug895 or other board part files-->
+    <!-- ###################### CLK25M ############################### -->
+    <pin index="0" name="sys_clk" iostandard="LVCMOS33" loc="T14"/>
+
+    <pin index="1" name ="MOD_LED" iostandard="LVCMOS33" loc="K18"/>    
+    <pin index="2" name ="EN_GTPWR" iostandard="LVCMOS33" loc="M15"/>    
+
+    <pin index="3" name="spi_ss"   iostandard="LVCMOS33" loc="L15"/>
+    <pin index="4" name="spi_io_0" iostandard="LVCMOS33" loc="K16"/>
+    <pin index="5" name="spi_io_1" iostandard="LVCMOS33" loc="L17"/>
+    <pin index="6" name="spi_io_2" iostandard="LVCMOS33" loc="J15"/>
+    <pin index="7" name="spi_io_3" iostandard="LVCMOS33" loc="J16"/>
+ <!-- ###################### UART TX - B14_L25 ############################### -->
+    <pin index="8" name="J2_98"  iostandard="LVCMOS33" loc="U10"/>
+ <!-- ###################### UART RX - B14_L0 ############################### -->
+    <pin index="9" name="J2_100" iostandard="LVCMOS33" loc="L14"/>
+    
+    <pin index="10" name="mgt_diff_clk0p"  loc="D6"/>
+    <pin index="11" name="mgt_diff_clk0n"  loc="D5"/>
+    <pin index="12" name="mgt_diff_clk1p"  loc="B6"/>
+    <pin index="13" name="mgt_diff_clk1n"  loc="B5"/>
+    
+    <pin index="14" name="mgt_rx0_p"  loc="E4"/>
+    <pin index="15" name="mgt_rx0_n"  loc="E3"/>
+    <pin index="16" name="mgt_rx1_p"  loc="A4"/>
+    <pin index="17" name="mgt_rx1_n"  loc="A3"/>
+    <pin index="18" name="mgt_rx2_p"  loc="C4"/>
+    <pin index="19" name="mgt_rx2_n"  loc="C3"/>
+    <pin index="20" name="mgt_rx3_p"  loc="G4"/>
+    <pin index="21" name="mgt_rx3_n"  loc="G3"/>
+    
+    <pin index="22" name="mgt_tx0_p"  loc="H2"/>
+    <pin index="23" name="mgt_tx0_n"  loc="H1"/>
+    <pin index="24" name="mgt_tx1_p"  loc="F2"/>
+    <pin index="25" name="mgt_tx1_n"  loc="F1"/>
+    <pin index="26" name="mgt_tx2_p"  loc="D2"/>
+    <pin index="27" name="mgt_tx2_n"  loc="D1"/>
+    <pin index="28" name="mgt_tx3_p"  loc="B2"/>
+    <pin index="29" name="mgt_tx3_n"  loc="B1"/>
+    
+    
+    <pin index="30" name="J1_32"  loc="J5"/>
+    <pin index="31" name="J1_34"  loc="J4"/>
+    <pin index="32" name="J1_36"  loc="J6"/>
+    <pin index="33" name="J1_38"  loc="K5"/>
+    <pin index="34" name="J1_40"  loc="K3"/>
+    <pin index="35" name="J1_42"  loc="L2"/>
+    <pin index="36" name="J1_44"  loc="L4"/>
+    <pin index="37" name="J1_46"  loc="L3"/>
+    <pin index="38" name="J1_50"  loc="M4"/>
+    <pin index="39" name="J1_52"  loc="N4"/>
+    <pin index="40" name="J1_54"  loc="N2"/>
+    <pin index="41" name="J1_56"  loc="N3"/>
+    <pin index="42" name="J1_58"  loc="P3"/>
+    <pin index="43" name="J1_60"  loc="P4"/>
+    <pin index="44" name="J1_64"  loc="T3"/>
+    <pin index="45" name="J1_66"  loc="T4"/>
+    <pin index="46" name="J1_68"  loc="R5"/>
+    <pin index="47" name="J1_70"  loc="T5"/>
+    <pin index="48" name="J1_72"  loc="P5"/>
+    <pin index="49" name="J1_74"  loc="P6"/>
+    <pin index="50" name="J1_76"  loc="T7"/>
+    <pin index="51" name="J1_78"  loc="R7"/>
+    <pin index="52" name="J1_80"  loc="V6"/>
+    <pin index="53" name="J1_82"  loc="U7"/>
+    <pin index="54" name="J1_86"  loc="V9"/>
+    <pin index="55" name="J1_88"  loc="U9"/>
+    <pin index="56" name="J1_90"  loc="V11"/>
+    <pin index="57" name="J1_92"  loc="U11"/>
+    <pin index="58" name="J1_94"  loc="V12"/>
+    <pin index="59" name="J1_96"  loc="V13"/>
+    
+    <pin index="60" name="J1_31"  loc="L5"/>
+    <pin index="61" name="J1_33"  loc="M5"/>
+    <pin index="62" name="J1_35"  loc="M2"/>
+    <pin index="63" name="J1_37"  loc="M1"/>
+    <pin index="64" name="J1_39"  loc="K2"/>
+    <pin index="65" name="J1_41"  loc="K1"/>
+    <pin index="66" name="J1_43"  loc="N1"/>
+    <pin index="67" name="J1_45"  loc="P1"/>
+    <pin index="68" name="J1_49"  loc="M6"/>
+    <pin index="69" name="J1_51"  loc="N6"/>
+    <pin index="70" name="J1_53"  loc="R2"/>
+    <pin index="71" name="J1_55"  loc="R1"/>
+    <pin index="72" name="J1_57"  loc="R3"/>
+    <pin index="73" name="J1_59"  loc="T2"/>
+    <pin index="74" name="J1_61"  loc="U1"/>
+    <pin index="75" name="J1_63"  loc="U2"/>
+    <pin index="76" name="J1_67"  loc="V2"/>
+    <pin index="77" name="J1_69"  loc="V3"/>
+    <pin index="78" name="J1_71"  loc="U4"/>
+    <pin index="79" name="J1_73"  loc="V4"/>
+    <pin index="80" name="J1_75"  loc="U5"/>
+    <pin index="81" name="J1_77"  loc="U6"/>
+    <pin index="82" name="J1_79"  loc="V7"/>
+    <pin index="83" name="J1_81"  loc="V8"/>
+    
+    <pin index="84"  name="J2_1"  loc="B9"/>
+    <pin index="85"  name="J2_3"  loc="A9"/>
+    <pin index="86"  name="J2_5"  loc="B10"/>
+    <pin index="87"  name="J2_7"  loc="A10"/>
+    <pin index="88"  name="J2_9"  loc="B11"/>
+    <pin index="89"  name="J2_11" loc="C11"/>
+    <pin index="90"  name="J2_13" loc="C8"/>
+    <pin index="91"  name="J2_15" loc="D8"/>
+    <pin index="92"  name="J2_19" loc="C9"/>
+    <pin index="93"  name="J2_21" loc="D9"/>
+    <pin index="94"  name="J2_23" loc="D11"/>
+    <pin index="95"  name="J2_25" loc="C12"/>
+    <pin index="96"  name="J2_27" loc="D13"/>
+    <pin index="97"  name="J2_29" loc="C13"/>
+    <pin index="98"  name="J2_31" loc="E13"/>
+    <pin index="99"  name="J2_33" loc="D14"/>
+    <pin index="100" name="J2_37" loc="D15"/>
+    <pin index="101" name="J2_39" loc="E13"/>
+    <pin index="102" name="J2_41" loc="D16"/>
+    <pin index="103" name="J2_43" loc="E16"/>
+    <pin index="104" name="J2_45" loc="F14"/>
+    <pin index="105" name="J2_47" loc="G14"/>
+    <pin index="106" name="J2_49" loc="G16"/>
+    <pin index="107" name="J2_51" loc="H16"/>
+    
+    <pin index="108" name="J2_2"  loc="A12"/>
+    <pin index="109" name="J2_4"  loc="B12"/>
+    <pin index="110" name="J2_6"  loc="A13"/>
+    <pin index="111" name="J2_8"  loc="A14"/>
+    <pin index="112" name="J2_10" loc="B14"/>
+    <pin index="113" name="J2_12" loc="A15"/>
+    <pin index="114" name="J2_14" loc="C14"/>
+    <pin index="115" name="J2_16" loc="B15"/>
+    <pin index="116" name="J2_20" loc="A17"/>
+    <pin index="117" name="J2_22" loc="B16"/>
+    <pin index="118" name="J2_24" loc="B17"/>
+    <pin index="119" name="J2_26" loc="C16"/>
+    <pin index="120" name="J2_28" loc="C18"/>
+    <pin index="121" name="J2_30" loc="C17"/>
+    <pin index="122" name="J2_32" loc="D18"/>
+    <pin index="123" name="J2_34" loc="E17"/>
+    <pin index="124" name="J2_38" loc="E18"/>
+    <pin index="125" name="J2_40" loc="F17"/>
+    <pin index="126" name="J2_42" loc="F18"/>
+    <pin index="127" name="J2_44" loc="G17"/>
+    <pin index="128" name="J2_46" loc="F15"/>
+    <pin index="129" name="J2_48" loc="G15"/>
+    <pin index="130" name="J2_50" loc="H17"/>
+    <pin index="131" name="J2_52" loc="H18"/>
+    
+    <pin index="132" name="J2_55" loc="J14"/>
+    <pin index="133" name="J2_57" loc="K15"/>
+    <pin index="134" name="J2_59" loc="M14"/>
+    <pin index="135" name="J2_61" loc="N14"/>
+    <pin index="136" name="J2_63" loc="N16"/>
+    <pin index="137" name="J2_65" loc="N17"/>
+    <pin index="138" name="J2_73" loc="P16"/>
+    <pin index="139" name="J2_75" loc="P15"/>
+    <pin index="140" name="J2_77" loc="R17"/>
+    <pin index="141" name="J2_79" loc="R16"/>
+    <pin index="142" name="J2_81" loc="P14"/>
+    <pin index="143" name="J2_83" loc="R15"/>
+    <pin index="144" name="J2_85" loc="T15"/>
+    <pin index="145" name="J2_87" loc="T14"/>
+    <pin index="146" name="J2_91" loc="R13"/>
+    <pin index="147" name="J2_93" loc="T13"/>
+    <pin index="148" name="J2_95" loc="U12"/>
+    <pin index="149" name="J2_97" loc="U11"/>
+    
+    <pin index="150" name="J2_56" loc="K17"/>
+    <pin index="151" name="J2_58" loc="L18"/>
+    <pin index="152" name="J2_60" loc="M17"/>
+    <pin index="153" name="J2_62" loc="M16"/>
+    <pin index="154" name="J2_64" loc="R18"/>
+    <pin index="155" name="J2_66" loc="T18"/>
+    <pin index="156" name="J2_76" loc="N18"/>
+    <pin index="157" name="J2_78" loc="P18"/>
+    <pin index="158" name="J2_80" loc="T17"/>
+    <pin index="159" name="J2_82" loc="U17"/>
+    <pin index="160" name="J2_86" loc="V17"/>
+    <pin index="161" name="J2_88" loc="V16"/>
+    <pin index="162" name="J2_90" loc="U16"/>
+    <pin index="163" name="J2_92" loc="U15"/>
+    <pin index="164" name="J2_94" loc="U14"/>
+    <pin index="165" name="J2_96" loc="V14"/>
+    
+  </pins>
+</part_info>
