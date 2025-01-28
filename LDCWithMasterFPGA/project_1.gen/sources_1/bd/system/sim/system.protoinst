@@ -1,0 +1,46 @@
+{
+	"version": "1.0",
+	"modules": {
+		"system": {
+			"proto_instances": {
+				"/aurora_8b10b_0/USER_DATA_M_AXI_RX": {
+					"interface": "xilinx.com:interface:axis:1.0",
+					"ports": {
+						"ACLK": { "actual": "user_clk_out"},
+						"ARESET": { "actual": "sys_reset_out"},
+						"TDATA": { "actual": "m_axi_rx_tdata"},
+						"TVALID": { "actual": "m_axi_rx_tvalid"}
+					}
+				},
+				"/aurora_8b10b_0/USER_DATA_S_AXI_TX": {
+					"interface": "xilinx.com:interface:axis:1.0",
+					"ports": {
+						"ACLK": { "actual": "user_clk_out"},
+						"ARESET": { "actual": "sys_reset_out"},
+						"TDATA": { "actual": "s_axi_tx_tdata"},
+						"TREADY": { "actual": "s_axi_tx_tready"},
+						"TVALID": { "actual": "s_axi_tx_tvalid"}
+					}
+				},
+				"/trafficGen_0/m_axis": {
+					"interface": "xilinx.com:interface:axis:1.0",
+					"ports": {
+						"ACLK": { "actual": "clk"},
+						"TDATA": { "actual": "m_axis_tdata"},
+						"TREADY": { "actual": "m_axis_tready"},
+						"TVALID": { "actual": "m_axis_tvalid"}
+					}
+				},
+				"/trafficGen_0/s_axis": {
+					"interface": "xilinx.com:interface:axis:1.0",
+					"ports": {
+						"ACLK": { "actual": "clk"},
+						"TDATA": { "actual": "s_axis_tdata"},
+						"TREADY": { "actual": "s_axis_tready"},
+						"TVALID": { "actual": "s_axis_tvalid"}
+					}
+				}
+			}
+		}
+	}
+}
